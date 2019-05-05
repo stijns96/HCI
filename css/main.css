@@ -1,0 +1,150 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i";
+
+* {
+    margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Montserrat',sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.bg {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: -10;
+}
+
+/* Backgrounds */
+.main-bg {
+    background: url(../images/bg/video_card.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.wear-bg {
+    background: url(../images/bg/wearable.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.play-bg {
+    background: url(../images/bg/playful.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.artificial-bg {
+    background: url(../images/bg/artificial.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.ar-bg {
+    background: url(../images/bg/ar.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.arduino-bg {
+    background: url(../images/bg/arduino.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.vr-bg {
+    background: url(../images/bg/vr.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.computer-bg {
+    background: url(../images/bg/computer.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.excursion-bg {
+    background: url(../images/bg/excursion.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.lab-bg {
+    background: url(../images/bg/lab.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.navbar {
+    padding: 0 2.5%;
+    line-height: 50px;
+}
+
+nav span {
+    font-weight: 600;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+.card {
+    min-height: calc(100vh - 161.6px);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.row {
+    margin-bottom: 25px;
+}
+
+/* Selectie */
+::selection {
+    background-color: rgba(44, 44, 44, 0.5);
+}
+
+/* ScrollBar */
+::-webkit-scrollbar {
+	width:17px
+}
+
+::-webkit-scrollbar-track {
+	background:#2c2c2c
+}
+
+::-webkit-scrollbar-thumb {
+	background:#525252
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background:#656565
+}
