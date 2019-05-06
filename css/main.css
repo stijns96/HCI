@@ -10,6 +10,7 @@
 }
 
 .bg {
+    opacity: 0;
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -117,6 +118,7 @@ nav span {
 .card {
     min-height: calc(100vh - 161.6px);
     background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
 }
 
 h1 {
