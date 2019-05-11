@@ -17,6 +17,10 @@
     z-index: -10;
 }
 
+h1, h2, p {
+    margin-bottom: 25px;
+}
+
 /* Backgrounds */
 .main-bg {
     background: url(../images/bg/video_card.jpeg) no-repeat center center fixed;
@@ -98,6 +102,8 @@
     -o-background-size: cover;
 }
 
+
+/* Navigatie */
 .navbar {
     padding: 0 2.5%;
     line-height: 50px;
@@ -118,10 +124,6 @@ nav span {
 .card {
     min-height: calc(100vh - 161.6px);
     opacity: 0;
-}
-
-h1 {
-    margin-bottom: 25px;
 }
 
 .row {

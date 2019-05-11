@@ -11,6 +11,9 @@
         <!-- Bootstrap 4 -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         
+        <!-- Ekko-Lightbox -->        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+        
         <!-- Own Css -->
         <link rel="stylesheet" href="../../css/main.css">
     </head>
@@ -66,12 +69,30 @@
             <div class="card border-0 shadow my-5">
                 <div class="card-body p-5">
                     <h1 class="font-weight-light text-center">Wearables</h1>
+                    <h2 class="font-weight-light text-center col-md-6 mx-auto">Smart tattoos as a new way of communicating</h2>
+                    
                     <h3 class="font-weight-light">Opdracht</h3>
-                    <p>Wats dit</p>
+                    <p>In het concept wordt er gebruik gemaakt van een smart tattoo die de alcoholwaardes in het bloed kan meten. De tattoo wordt direct op de huid geplakt waardoor de alcoholwaardes uit de transparantie van de betreffende persoon gemeten kunnen worden. Hoewel er al eerder is geprobeerd alcoholgehaltes in transparantie te meten, duurde deze pogingen ongeveer 2 tot 3 uur om een meting te produceren. Bij de nieuwe smart tattoo lukt dit binnen 8 minuten. Deze meting wordt direct via Bluetooth naar de smartphone van de gebruiker verzonden. Op deze manier kan de consumptie van alcohol beter gecontroleerd worden.
+                    <br><br>
+                    Niet alleen de gebruiker kan de consumptie controleren, maar ook de mensen op zich heen. De tattoo geeft een bepaalde kleur aan de hand van de status waar je je op dat moment in begeeft. Dit kan vooral handig zijn voor controles bij uitgaansgebieden of voor hulpdiensten. Zij kunnen op dat moment meteen zien in wat voor toestand de persoon zich bevind. Ook kunnen hulpdiensten meteen gealarmeerd worden wanneer een persoon zich over zijn of haar grens heeft gedronken. Dit wordt via Bluetooth naar de telefoon verzonden waardoor er meteen een signaal afgegeven wordt.</p>
+                    
                     <h3 class="font-weight-light">Research</h3>
-                    <p>Wats dit</p>
+                    <p>Na het lezen van de opdracht ben ik meteen op Google gaan zoeken. Na het intikken van <i>Smart Tattoo</i> kreeg ik meteen een suggestie waar <i>alcohol</i> achter stond. Hierdoor kwam een artikel naar voor waar zo goed als alles over in stond betreft het meten van alcohol aan de hand van een smart tattoo.</p>
+                    
                     <h3 class="font-weight-light">Reflectie</h3>
-                    <p>Wats dit</p>
+                    <p>De smart tattoo is naar mijn mening één van de betere innovatieve ideeën voor het controleren van het overmatig alcoholgebruik. De blaastest is hierdoor compleet overbodig geworden. Daarnaast kan je de smart tattoo op allerlei manieren ontwerpen en kan je zelf bepaalden waar je de tattoo wilt plaatsen. Uit onderzoek zal ongetwijfeld nog blijken dat er bepaalde plekken zijn op het lichaam waar je de tattoo het beste kunt plakken voor het beste resultaat. Ook zal het handig zijn als er maar één soort ontwerp komt voor het meten van het alcoholgehalte.</p>
+                    
+                    <div class="row">
+                        <a href="../../images/topics/wearables/smart_tattoo.jpg" data-toggle="lightbox" data-gallery="smart tattoo" data-title="Smart Tattoo 1" class="col-md-4">
+                            <img src="../../images/topics/wearables/smart_tattoo.jpg" class="img-fluid rounded">
+                        </a>
+                        <a href="../../images/topics/wearables/smart_tattoo-2.jpg" data-toggle="lightbox" data-gallery="smart tattoo" data-title="Smart Tattoo 2" class="col-md-4">
+                            <img src="../../images/topics/wearables/smart_tattoo-2.jpg" class="img-fluid rounded">
+                        </a>
+                        <a href="../../images/topics/wearables/smart_tattoo-3.jpg" data-toggle="lightbox" data-gallery="smart tattoo" data-title="Gecontroleerde drinker" class="col-md-4">
+                            <img src="../../images/topics/wearables/smart_tattoo-3.jpg" class="img-fluid rounded">
+                        </a>
+                    </div>
                 </div>
             </div>
         </main>
@@ -93,7 +114,19 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/ScrollToPlugin.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
         
+<!--    Ekko-Lightbox -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+        
 <!--    Own Js -->
+        <script>
+            $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox({
+                    alwaysShowClose: true
+                });
+            });
+        </script>
+        
         <script src="../../js/fade-in.js"></script>
     </body>
 </html>
