@@ -130,8 +130,18 @@ nav span {
     margin-bottom: 25px;
 }
 
-.card .img {
+.card a {
     width: 100%;
+}
+
+.card .img {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.card video {
+    border-radius: 5px;
 }
 
 /* Selectie */
